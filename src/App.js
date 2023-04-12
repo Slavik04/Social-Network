@@ -1,5 +1,6 @@
 import './App.css';
 import Header from "./components/header/Header";
+import {NavLink} from "react-router-dom";
 
 function App() {
   return (
@@ -7,19 +8,19 @@ function App() {
           <Header/>
         <nav className="nav">
           <div>
-            <a href="#">Profile</a>
+            <NavLink to="/profile">Profile</NavLink>
           </div>
           <div>
-            <a href="#">Messages</a>
+            <NavLink to="/messages">Messages</NavLink>
           </div>
           <div>
-            <a href="#">News</a>
+            <NavLink to="/news">News</NavLink>
           </div>
           <div>
-            <a href="#">Music</a>
+            <NavLink to="/music">Music</NavLink>
           </div>
           <div>
-            <a href="#">Settings</a>
+            <NavLink to="/settings">Settings</NavLink>
           </div>
         </nav>
         <div className="content">
