@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import "./index.css";
-import App from "./App";
 import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import Profile from "./components/profile/Profile";
+import Profile from "./components/Profile/Profile";
+import Dialogs from "./components/Dialogs/Dialogs";
+import App from "./App";
 
 const router = createBrowserRouter([
   {
@@ -12,8 +13,12 @@ const router = createBrowserRouter([
     element: <App/>,
     children: [
       {
-        path: "/profile",
+        path: "profile",
         element: <Profile />,
+      },
+      {
+        path: "messages",
+        element: <Dialogs />,
       }
     ]
   }

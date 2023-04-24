@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d1a0958-00f5-4a9a-9a3e-5881f853a94d" name="Changes" comment="Add some logics" />
+    <list default="true" id="2d1a0958-00f5-4a9a-9a3e-5881f853a94d" name="Changes" comment="Add some logics">
+      <change afterPath="$PROJECT_DIR$/src/components/profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myposts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myposts/Post/Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/ProfileInfo.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +40,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/khoty/Desktop/social-network/src/components/Dialogs&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -45,6 +59,16 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\khoty\Desktop\social-network\src\components\Dialogs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\khoty\Desktop\social-network\src\components\profile\myposts\post" />
+      <recent name="C:\Users\khoty\Desktop\social-network\src\components\profile\myposts" />
+      <recent name="C:\Users\khoty\Desktop\social-network\src\components\profile\profileinfo" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -70,7 +94,16 @@
       <updated>1681037806020</updated>
       <workItem from="1681037808024" duration="10545000" />
       <workItem from="1681328602862" duration="5128000" />
-      <workItem from="1681334456360" duration="245000" />
+      <workItem from="1681334456360" duration="450000" />
+      <workItem from="1681842216680" duration="3836000" />
+      <workItem from="1681923296508" duration="3106000" />
+      <workItem from="1682020546864" duration="4575000" />
+      <workItem from="1682081690828" duration="2122000" />
+      <workItem from="1682107542152" duration="1666000" />
+      <workItem from="1682277066901" duration="2402000" />
+      <workItem from="1682316136272" duration="1590000" />
+      <workItem from="1682318625729" duration="6960000" />
+      <workItem from="1682342056450" duration="9931000" />
     </task>
     <task id="LOCAL-00001" summary="Add some logics">
       <created>1681334541593</created>
@@ -79,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681334541593</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add some logics">
+      <created>1681334740692</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681334740692</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
