@@ -1,8 +1,8 @@
 import React from "react";
 import s from "./Dialogs.module.css";
-import DialogItem from "./DialogItem/DialogItem";
+import DialogItem from "./dialogItem/DialogItem";
 import {useDispatch, useSelector} from "react-redux";
-import Message from "./Message/Message";
+import Message from "./message/Message";
 import ADD_MESSAGE from "../../redux/actions/messagesPageActions";
 
 const Dialogs = () => {

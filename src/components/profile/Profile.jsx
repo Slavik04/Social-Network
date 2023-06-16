@@ -1,6 +1,6 @@
 import React from "react";
-import MyPosts from "./MyPosts/MyPosts";
-import ProfileInfo from "./ProfileInfo/ProfileInfo";
+import MyPosts from "./myPosts/MyPosts";
+import ProfileInfo from "./profileInfo/ProfileInfo";
 import {useOutletContext} from "react-router-dom";
 
 const Profile = (props) => {
