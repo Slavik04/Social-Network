@@ -1,39 +1,34 @@
 import React from "react";
 import s from "./Dialogs.module.css";
-import {NavLink} from "react-router-dom";
-
-const DialogItem = (props) => {
-  let path = `dialog/${props.id}`
-
-  return (
-      <div>
-        <NavLink to={path}>{props.name}</NavLink>
-      </div>
-  )
-}
-
-const Message = (props) => {
-  return (
-      <div className={s.dialog}>{props.message}</div>
-  )
-}
-
-let dialogsData = [
-  {id: 1, name: "Slava"},
-  {id: 2, name: "John"},
-]
+import DialogItem from "./DialogItem/DialogItem";
+import {useDispatch, useSelector} from "react-redux";
+import Message from "./Message/Message";
+import ADD_MESSAGE from "../../redux/actions/messagesPageActions";
 
 const Dialogs = () => {
+  const dispatch = useDispatch()
+
+  const myMessages = useSelector(state => state.messagesPageReducer.messages)
+  const myDialogs = useSelector(state => state.messagesPageReducer.dialogs)
+
+  let dialogsElements = myDialogs.map(d => <DialogItem name={d.name} id={d.id}/>)
+  let messagesElements = myMessages.map(m => <Message message={m.message} />)
+
+  const addMessage = () => {
+    dispatch({type: ADD_MESSAGE})
+  }
+
   return (
       <div className={s.dialogs}>
         <div className={s.dialogsItems}>
-          <DialogItem name={dialogsData[0].name} id={dialogsData[0].id}/>
-          <DialogItem name={dialogsData[1].name} id={dialogsData[0].id}/>
+          {dialogsElements}
         </div>
         <div className={s.messages}>
-          <Message message="Hi"/>
-          <Message message="How is your life?"/>
-          <Message message="Yo"/>
+          <div>{messagesElements}</div>
+        </div>
+        <div>
+          <div><textarea placeholder='Enter your message' ></textarea></div>
+          <div><button onClick={() => addMessage()}>Send</button></div>
         </div>
       </div>
   );
