@@ -12,8 +12,12 @@ const MyPosts = (props) => {
 
   let posts = allPosts.map(p => <Post message={p.message} likesCount={p.likesCount}/>)
 
-  const addPost = () => {
-    dispatch({type: ADD_POST, payload: inputValue})
+  const addPost = (inputValue) => {
+    const post = {
+      message: inputValue,
+      likesCount: 0,
+    }
+    dispatch({type: ADD_POST, payload: post})
   }
 
   return (
