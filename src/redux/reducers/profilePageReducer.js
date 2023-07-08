@@ -1,4 +1,4 @@
-import ADD_POST from "../actions/profilePageActions"
+import {ADD_POST} from "../actions/profilePageActions";
 
 const defaultState = {
   posts: [],

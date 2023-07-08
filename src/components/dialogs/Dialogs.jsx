@@ -3,20 +3,14 @@ import s from "./Dialogs.module.css";
 import DialogItem from "./dialogItem/DialogItem";
 import {useDispatch, useSelector} from "react-redux";
 import Message from "./message/Message";
-import ADD_MESSAGE from "../../redux/actions/messagesPageActions";
+import {addMessage} from "../../redux/actions/messagesPageActions";
 
 const Dialogs = () => {
-  const dispatch = useDispatch()
-
   const myMessages = useSelector(state => state.messagesPageReducer.messages)
   const myDialogs = useSelector(state => state.messagesPageReducer.dialogs)
 
   let dialogsElements = myDialogs.map(d => <DialogItem name={d.name} id={d.id}/>)
   let messagesElements = myMessages.map(m => <Message message={m.message} />)
-
-  const addMessage = () => {
-    dispatch({type: ADD_MESSAGE})
-  }
 
   return (
       <div className={s.dialogs}>
