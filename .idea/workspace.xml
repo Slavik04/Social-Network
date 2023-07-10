@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2d1a0958-00f5-4a9a-9a3e-5881f853a94d" name="Changes" comment="Add some logics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/myposts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myposts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/messagesPageActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/messagesPageActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/profilePageActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/profilePageActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/messagesPageReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/messagesPageReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/profilePageReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/profilePageReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +121,8 @@
       <workItem from="1686905875142" duration="8509000" />
       <workItem from="1686932115137" duration="9290000" />
       <workItem from="1687178861004" duration="594000" />
-      <workItem from="1688816163079" duration="4205000" />
+      <workItem from="1688816163079" duration="6231000" />
+      <workItem from="1689010391543" duration="3511000" />
     </task>
     <task id="LOCAL-00001" summary="Add some logics">
       <created>1681334541593</created>
@@ -177,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686943724181</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add some logics">
+      <created>1688821087749</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688821087749</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
