@@ -1,10 +1,12 @@
 import React, {useState} from "react";
 import s from "./MyPost.module.css"
-import {useSelector} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import Post from "./Post/Post";
 import {addPost} from "../../../redux/actions/profilePageActions";
 
 const MyPosts = (props) => {
+  const dispatch = useDispatch()
+
   const [inputValue, setInputValue] = useState('')
 
   const allPosts = useSelector(state => state.profilePageReducer.posts)
@@ -20,7 +22,7 @@ const MyPosts = (props) => {
           <form>
             <textarea onChange={e => setInputValue(e.target.value)} value={inputValue} />
             <div>
-              <button onClick={() => addPost()}>Add post</button>
+              <button onClick={(evt) => addPost(dispatch, inputValue, evt)}>Add post</button>
             </div>
           </form>
         </div>

@@ -1,5 +1,4 @@
 import {ADD_POST} from "../actions/profilePageActions";
-import {useDispatch} from "react-redux";
 
 const defaultState = {
   posts: [],
