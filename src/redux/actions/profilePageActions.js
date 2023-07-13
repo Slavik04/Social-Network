@@ -7,5 +7,5 @@ export const addPost = (dispatch, inputValue, evt) => {
     message: inputValue,
     likesCount: 0,
   };
-  dispatch({type: ADD_POST, payload: inputValue})
+  dispatch({type: ADD_POST, payload: post})
 };
