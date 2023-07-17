@@ -1,4 +1,4 @@
-import {ADD_MESSAGE} from "../actions/messagesPageActions";
+import {ADD_MESSAGE} from "../actions/messagesPageActions"
 
 const defaultState = {
   messages: [],
